@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: left;
+}
+
+.date-time {
+    font-size: 27px;
+    margin-bottom: 3px;
+}
+
+.app-list {
+    margin-bottom: 80px;
+}
+
+.app {
+    font-size: 21px;
+    margin: 9px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.app:hover {
+    color: #ccc;
+}
+
+.settings-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
